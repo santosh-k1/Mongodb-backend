@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://dxperts:India@123@cluster0.oc1ai.mongodb.net/devMean?retryWrites=true&w=majority',(err)=>{
+mongoose.connect('mongodb database path',(err)=>{
     if(!err){
         console.log('Yes connection successful');
     }
